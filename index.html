@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b51da895f1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="#">Home</a>
+        <a href="#">About me</a>
+        <a href="#">Contact</a>
+        <a href="#">Gallary</a>
+      </div>
+      <div class="slider">
+        <div class="slider-buttons">
+          <div class="slider-button" onclick="goPrev();">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="slider-button" onclick="goNext();">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="slider--width">
+          <div
+            class="slider--item"
+            style="background-image: url(./image/foto1.jpg)"
+          >
+            Lago congelado
+          </div>
+          <div
+            class="slider--item"
+            style="background-image: url(./image/foto2.jpg)"
+          >
+            Neve na floresta
+          </div>
+          <div
+            class="slider--item"
+            style="background-image: url(./image/foto3.jpg)"
+          >
+            Lago na floresta
+          </div>
+          <div
+            class="slider--item"
+            style="background-image: url(./image/foto4.jpg)"
+          >
+            Sol com neve
+          </div>
+          <div
+            class="slider--item"
+            style="background-image: url(./image/foto5.jpg)"
+          >
+            Lago congelado e pinheiros
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h1>Resto do site</h1>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
